@@ -129,6 +129,7 @@ sudo cp ./linux-2.4.x/linux ./images
 sudo vi skyeye.conf
 ```
 skyeye.conf配置脚本内容如下   
+
 ```
 #skyeye config file sample
 arch:arm
@@ -149,9 +150,12 @@ net: type=cs8900a, ethmod=tuntap, hostip=10.0.0.1
 uart: mod = term
 #dbct: state=on
 ```
+
 然后在iamges目录下执行   
+
 ```
 skyeye -c skyeye.conf -e linux
 ```
+
 uClinux成功启动。    
 uClinux编译成功！！
