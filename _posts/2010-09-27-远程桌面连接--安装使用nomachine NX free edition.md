@@ -34,41 +34,48 @@ nxclient
 nxnode  
 nxserver  
 直接双击下载到的deb 文件安装即可。喜欢用命令行方式的可以cd到deb文件所在文件夹  
-或用命令：  
+或用命令：
+  
 ```
 sudo dpkg -i file/path/filename.deb   
 ```
+
 ## 配置  
 
 1. 使用你喜欢的编辑器编辑/etc/ssh/sshd_config 文件
-
 
 ```
 sudo vi /etc/ssh/sshd_config
 ```
 添加一行：  
+
 ```
 AuthorizedKeysFile /usr/NX/home/nx/.ssh/authorized_keys2
 ```
 
 (注：如果原来有了AuthorizedKeysFile开头的这一行，很可能是因为之前安装过其他版本的NX，可以注释掉)  
 
-2.  重启sshd:
+2. 重启sshd:
 
 ```
 sudo /etc/init.d/ssh restart
 ```
+
 确定nxserver已经能正常运行：
+
 ```
 sudo /usr/NX/bin/nxserver --status
 ```
+
 如果得到信息如下，就是可以了
+
 ```
 NX> 900 Connecting to server ..
 NX> 110 NX Server is running.
 
 NX> 999 Bye.
 ```
+
 如果有错的话，应该是配置上的问题。到此nxserver安装完成。
 
 ## 更改nxserver配置文件
@@ -76,9 +83,12 @@ NX> 999 Bye.
 ```
 sudo vi /usr/NX/etc/server.cfg
 ```
+
 去掉以下两行的注释，并改为
+
 ```
 Enableautokillsessions = "1"
 Enableunencryptedsession = "0"
 ```
+
 在Windows或LINUX上安装nxclient，比如在windows上安装nxclient，按照设置进行设置，最后登录的用户名密码可选择安装nxserver的LINUX主机的用户名和密码进行登录。就可以看到远程LINXU的桌面了。 
