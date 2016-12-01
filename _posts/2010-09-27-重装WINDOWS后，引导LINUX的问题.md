@@ -6,7 +6,7 @@ categories:
 - Linux
 tags:
 - grub
-- ubuntu10.04
+- ubuntu1004
 ---
 
 原来机器是双系统WINXP+UBUNTU10.04LTS，删掉XP，安装WIN7后，按照以下步骤重新引导UBUNTU10.04LTS
