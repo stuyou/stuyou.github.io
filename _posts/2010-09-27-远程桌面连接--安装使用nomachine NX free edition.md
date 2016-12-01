@@ -6,7 +6,7 @@ categories:
 - Linux
 tags:
 - NX
-- UBUNTU10.04
+- ubuntu1004
 ---
 
 NX可以让用户远程登录到LINUX桌面，下面介绍在UBUNTU10.04LTS上安装NX的过程

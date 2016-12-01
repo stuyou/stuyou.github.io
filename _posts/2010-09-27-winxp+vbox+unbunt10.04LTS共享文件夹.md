@@ -6,7 +6,7 @@ categories:
 - Linux
 tags:
 - virtualbox
-- ubuntu10.04
+- ubuntu1004
 ---
 
 1. 在XP下新建一个文件夹，用来作为和虚拟UBUNTU共享的文件夹，比如在E盘下建立xlshare文件夹。

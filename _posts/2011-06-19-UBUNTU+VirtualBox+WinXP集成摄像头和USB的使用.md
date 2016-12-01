@@ -5,7 +5,7 @@ date: 2011-06-19 15:12:46 +0800
 categories:
 - Linux
 tags:
-- ubuntu10.04
+- ubuntu1004
 - virtualbox
 ---
 

@@ -6,7 +6,7 @@ categories:
 - Linux
 tags:
 - vim
-- ubuntu10.04
+- ubuntu1004
 ---
 
 ## 安装环境
