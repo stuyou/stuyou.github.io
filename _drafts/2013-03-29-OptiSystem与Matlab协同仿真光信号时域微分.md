@@ -16,21 +16,21 @@ OptiSystem中没有提供光时域微分模块，若要对光信号进行时域�
 
 常见一个OS工程，如图1所示
 
-<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_1.jpg" style="display:block;margin:auto"/>（居中）
-<center>系统结构图</center>
+<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_1.jpg" style="display:block;margin:auto"/>
+<center>图1.系统结构图</center>
 
 待微分的信号设定为高斯信号，因此图1中使用高斯脉冲发生器来产生待微分的高斯光脉冲。用户自定义比特序列的码率为10Gb/s，“Bit sequence”设置为0001000000000000。高斯脉冲发生器中设定“Frequency”为190.6819THz，该频率为Matlab模块中的双芯光纤微分器的中心波长对应，“Width”为1bit。高斯光脉冲发生器产生的高斯光脉冲时域图及其单个脉冲的放大图如图2和图3所示。
 
-<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_2.jpg" style="display:block;margin:auto"/>（居中）
-<center>高斯光脉冲序列时域图</center>
+<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_2.jpg" style="display:block;margin:auto"/>
+<center>图2.高斯光脉冲序列时域图</center>
 
-<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_3.jpg" style="display:block;margin:auto"/>（居中）
-<center>高斯光脉冲序列频谱图</center>
+<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_3.jpg" style="display:block;margin:auto"/>
+<center>图3.高斯光脉冲序列频谱图</center>
 
 高斯光脉冲发生器产生的高斯光脉冲频谱图如图4所示。
 
-<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_4.jpg" style="display:block;margin:auto"/>（居中）
-<center>高斯单个光脉冲放大图</center>
+<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_4.jpg" style="display:block;margin:auto"/>
+<center>图4.高斯单个光脉冲放大图</center>
 
 ## MATLAB库脚本文件
 
@@ -91,16 +91,16 @@ end
 
 MATLAB库输出的高斯一阶微分脉冲时域图及单个脉冲放大图如图5、图6所示
 
-<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_5.jpg" style="display:block;margin:auto"/>（居中）
-<center>高斯一阶微分光脉冲序列时域图</center>
+<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_5.jpg" style="display:block;margin:auto"/>
+<center>图5.高斯一阶微分光脉冲序列时域图</center>
 
-<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_6.jpg" style="display:block;margin:auto"/>（居中）
-<center>高斯单个一阶微分光脉冲放大图</center>
+<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_6.jpg" style="display:block;margin:auto"/>
+<center>图6.高斯单个一阶微分光脉冲放大图</center>
 
 高斯一阶微分光脉冲频谱图如图7所示
 
-<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_7.jpg" style="display:block;margin:auto"/>（居中）
-<center>高斯一阶微分光脉冲频谱图</center>
+<img src="https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/OS_MATLAB_DIFF_7.jpg" style="display:block;margin:auto"/>
+<center>图7.高斯一阶微分光脉冲频谱图</center>
 
 通过时域和频域图可以看出，Matlab库输出的光信号确实为输入信号的一阶时域微分。
 
