@@ -77,9 +77,8 @@ mathjax: true      #enable mathjax if true
 #### Author information
 author:
   name: stuyou      ## e.g. wuchong Author name
-  intro_line1:  "Hello ,I'm stuyou in Qingdao."    ## your introduction on the bottom of the page
-  intro_line2:  "Email:stuyou@126.com"    ## your introduction on the bottom of the page
-  intro_line3:  "Github:https://github.com/stuyou/"    ## your introduction on the bottom of the page
+  intro_line1:  "Email:stuyou@126.com"    ## your introduction on the bottom of the page
+  intro_line2:  "Github:https://github.com/stuyou/"    ## your introduction on the bottom of the page
   weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
