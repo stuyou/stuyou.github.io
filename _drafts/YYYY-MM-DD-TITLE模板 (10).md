@@ -19,11 +19,12 @@ tags:
 - embedded
 - windows
 - blog
-- 主题使用
+- 主题使用（标签名字中不能有点号）
 ---
 
 ## 正文开始
 
+分段：需要连续两个回车，或者“空格”+“空格”+回车
 发表模板
 
 插入图片：（所有的图片都置于_post/image/下;）
@@ -31,6 +32,8 @@ tags:
 ![](https://github.com/stuyou/stuyou.github.io/raw/master/_posts/image/myself.jpg)
 <center>如图X所示</center>
 
+
+[下载源码](https://github.com/stuyou/stuyou.github.io/raw/master/_posts/data/LP01_beta_lamda.rar)
 
 插入链接：[查看详情](http://www.sciencedirect.com/science/article/pii/S0030402616307823)
 
@@ -44,7 +47,7 @@ tags:
 
 WORD/EXCEL转HTML表格网址:http://pressbin.com/tools/excel_to_html_table/index.html
 转成的HTML表格可直接插入MARKDOWN
-插入代码：
+插入代码：(插入代码时代码区上下各空一行)
 ```c
 unsigned long ntp_get_time()
 {
