@@ -28,7 +28,6 @@ paginate: 20
 #### Site
 title : Fiber+EmbeddedLinux
 tagline: 游走在光纤通信和嵌入式开发之间。。。
-tagline:stuyou@126.com
 assets: /assets
 baseurl: 
 
