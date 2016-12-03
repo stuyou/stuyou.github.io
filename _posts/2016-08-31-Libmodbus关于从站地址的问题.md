@@ -14,7 +14,7 @@ tags:
 
 在Modbus.c文件中，可以看到modbus_set_slave()函数的实现如下：
 
-```x
+```c
 /* Define the slave number */
 int modbus_set_slave(modbus_t *ctx, int slave)
 {

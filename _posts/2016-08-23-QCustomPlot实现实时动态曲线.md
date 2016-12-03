@@ -5,7 +5,7 @@ date: 2016-08-23 11:35:28 +0800
 categories:
 - Linux
 tags:
-- QcustomPlot
+- qcustomplot
 ---
 
 Qt4中，可以使用QCustompPlot来绘制曲线，QCustompPlot是一个第三方工具，可以到官网下载：http://www.qcustomplot.com/index.php/download

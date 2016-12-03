@@ -1,6 +1,6 @@
 ---
 layout: post
-title: U盘安装UBUNTU出现InputOutput error分析解决 
+title: U盘安装UBUNTU出现Input/Output error分析解决 
 date: 2015-10-15 22:41:47 +0800
 categories:
 - Linux
